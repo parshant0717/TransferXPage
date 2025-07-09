@@ -3,8 +3,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
-    <div className="flex justify-center items-center flex-col my-28">
-      <div className="flex flex-wrap flex-col justify-center items-center text-center gap-8">
+    <div className="flex justify-center items-center flex-col container my-10">
+      <div className="flex flex-wrap flex-col justify-center items-center text-center gap-4">
         <div className="border border-slate-800 rounded-full text-sm px-2 py-0.5 inline-block">
           <button className="m-1 bg-indigo-600 rounded-full px-2.5 py-0.5 font-medium">
             New
@@ -12,13 +12,13 @@ export default function About() {
           <span className="font-semibold">Discounts are active!</span>
         </div>
         <div>
-          <h1 className="font-bold text-6xl text-wrap">
+          <h1 className="font-bold text-4xl text-wrap">
             Your Ultimate Storage Solution
             <span className="text-indigo-600 ml-1">TransferX</span>
           </h1>
         </div>
         <div>
-          <p className="text-xl max-w-screen-sm text-gray-400">
+          <p className="text-lg max-w-screen-sm text-gray-400">
             Transform the way you store and manage your data with TransferX –
             The all-in-one platform offering scalable, secure, and efficient
             storage for all your needs.
@@ -35,7 +35,7 @@ export default function About() {
         </div>
       </div>
       <div>
-        <div className="rounded-lg relative my-20">
+        <div className="rounded-lg relative my-10">
           <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 bg-indigo-600/70 rounded-full blur-3xl lg:-top-8 lg:h-80"></div>
           <img
             src="https://transferx.in/_next/image?url=%2FHero.png&w=3840&q=75"

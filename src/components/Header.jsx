@@ -1,11 +1,12 @@
-import React from "react";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
   return (
-    <div className="flex justify-center">
-      <nav className=" flex justify-between w-9/12 my-7 px-4 py-3 border border-slate-800 rounded-2xl">
-        <div className="cursor-pointer text-lg font-bold">TransferX</div>
-        <div>
+    <div className="flex justify-center px-4">
+      <nav className=" flex justify-between w-full my-4 px-4 py-2 border border-slate-800 rounded-2xl">
+        <div className="cursor-pointer font-bold">TransferX</div>
+        <div className="hidden">
           <ul className="flex justify-evenly gap-4 font-normal">
             <li className="cursor-pointer font-medium">Features</li>
             <li className="cursor-pointer">Team</li>
@@ -13,7 +14,10 @@ export default function Header() {
             <li className="cursor-pointer">FAQ</li>
           </ul>
         </div>
-        <div className="cursor-pointer">Login</div>
+        <div className="cursor-pointer hidden">Login</div>
+        <div>
+          <FontAwesomeIcon icon={faBars} />
+        </div>
       </nav>
     </div>
   );
