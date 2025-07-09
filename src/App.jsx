@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="bg-primary text-white overflow-hidden">
+    <div className="bg-primary text-white ">
       <Header />
       <Body />
       <Footer />

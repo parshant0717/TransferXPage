@@ -3,7 +3,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
-    <div className="flex justify-center items-center flex-col container my-10">
+    <section className="flex justify-center items-center flex-col container my-10">
       <div className="flex flex-wrap flex-col justify-center items-center text-center gap-4">
         <div className="border border-slate-800 rounded-full text-sm px-2 py-0.5 inline-block">
           <button className="m-1 bg-indigo-600 rounded-full px-2.5 py-0.5 font-medium">
@@ -47,6 +47,6 @@ export default function About() {
           <div className="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-primary/30 via-primary/50 to-primary blur-3xl"></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
