@@ -39,8 +39,7 @@ export default function About() {
           <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 bg-indigo-600/70 rounded-full blur-3xl lg:-top-8 lg:h-80"></div>
           <img
             src="https://transferx.in/_next/image?url=%2FHero.png&w=3840&q=75"
-            alt=""
-            srcset=""
+            alt="Hero image"
             loading="lazy"
             className="z-10 relative rounded-lg border-t-2 border-t-indigo-600/80"
           />

@@ -12,7 +12,7 @@ export default function Social() {
           Ready to join this{" "}
           <span className="text-indigo-600 ml-1">Community?</span>
         </p>
-        <p className="text-lg lg:w-[80%] p-6 pt-0 text-gray-400">
+        <p className="text-lg lg:w-[80%] px-6 text-gray-400">
           Join our vibrant Discord community! Connect, share, and grow with
           like-minded enthusiasts. Click to dive in! 🚀
         </p>
