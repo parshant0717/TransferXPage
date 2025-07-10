@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section>
+    <section className="container">
       <div>
         <div className="flex flex-col justify-center items-center px-2 mb-8 gap-2">
           <h2 className="text-indigo-600 text-lg">Services</h2>
