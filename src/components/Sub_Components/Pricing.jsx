@@ -3,7 +3,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Pricing() {
   return (
-    <section className="container">
+    <section className="container my-10">
       <div>
         <div className="flex flex-col justify-center items-center px-2 mb-8 gap-2">
           <h2 className="text-indigo-600 text-lg">Pricing</h2>

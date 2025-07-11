@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Benifit() {
   return (
-    <section className="flex flex-col justify-center container items-center gap-10">
+    <section className="flex flex-col justify-center container items-center gap-10 my-10">
       <div>
         <div className="flex flex-col gap-2">
           <h2 className="text-indigo-600 text-lg">Benefits</h2>

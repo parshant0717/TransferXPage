@@ -6,6 +6,7 @@ import Features from "./Sub_Components/Features";
 import Services from "./Sub_Components/Services";
 import Social from "./Sub_Components/Social";
 import Pricing from "./Sub_Components/Pricing";
+import Contact from "./Sub_Components/Contact";
 
 export default function Body() {
   return (
@@ -17,6 +18,7 @@ export default function Body() {
       <Services />
       <Social />
       <Pricing />
+      <Contact />
     </div>
   );
 }
