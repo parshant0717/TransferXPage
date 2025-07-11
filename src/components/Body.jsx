@@ -5,6 +5,7 @@ import Demo from "./Sub_Components/Demo";
 import Features from "./Sub_Components/Features";
 import Services from "./Sub_Components/Services";
 import Social from "./Sub_Components/Social";
+import Pricing from "./Sub_Components/Pricing";
 
 export default function Body() {
   return (
@@ -15,6 +16,7 @@ export default function Body() {
       <Features />
       <Services />
       <Social />
+      <Pricing />
     </div>
   );
 }
