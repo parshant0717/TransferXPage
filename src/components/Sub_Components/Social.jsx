@@ -3,16 +3,16 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 export default function Social() {
   return (
-    <section className="container flex felx-col justify-center items-center my-10">
-      <div className="border-y py-10 my-10 lg:w-[60%] border-gray-600 text-center flex flex-col justify-center items-center gap-4">
+    <section className="flex felx-col justify-center items-center my-10 md:py-20 border-y border-gray-800">
+      <div className="py-10 lg:py-20 my-10 lg:w-[60%] text-center flex flex-col justify-center items-center gap-4">
         <div>
-          <FontAwesomeIcon icon={faDiscord} className="text-5xl" />
+          <FontAwesomeIcon icon={faDiscord} className="text-5xl lg:text-6xl" />
         </div>
-        <p className="font-bold text-3xl text-wrap text-center">
+        <p className="font-bold text-3xl md:text-4xl lg:text-5xl text-wrap text-center">
           Ready to join this{" "}
           <span className="text-indigo-600 ml-1">Community?</span>
         </p>
-        <p className="text-lg lg:w-[80%] px-6 text-gray-400">
+        <p className="text-lg lg:text-xl lg:w-[85%] px-6 text-gray-400">
           Join our vibrant Discord community! Connect, share, and grow with
           like-minded enthusiasts. Click to dive in! 🚀
         </p>

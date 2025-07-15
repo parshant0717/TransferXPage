@@ -3,8 +3,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
-    <section className="flex justify-center items-center flex-col container my-10">
-      <div className="flex flex-wrap flex-col justify-center items-center text-center gap-4">
+    <section className="flex justify-center items-center flex-col  my-10">
+      <div className="flex flex-wrap flex-col justify-center items-center text-center gap-4 lg:w-3/4 container md:py-20">
         <div className="border border-slate-800 rounded-full text-sm px-2 py-0.5 inline-block">
           <button className="m-1 bg-indigo-600 rounded-full px-2.5 py-0.5 font-medium">
             New
@@ -12,7 +12,7 @@ export default function About() {
           <span className="font-semibold">Discounts are active!</span>
         </div>
         <div>
-          <h1 className="font-bold text-4xl text-wrap">
+          <h1 className="font-bold text-4xl md:text-6xl text-wrap">
             Your Ultimate Storage Solution
             <span className="text-indigo-600 ml-1">TransferX</span>
           </h1>
